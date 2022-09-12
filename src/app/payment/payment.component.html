@@ -1,0 +1,30 @@
+<app-steps></app-steps>
+<div class="flex justify-center my-16">
+  <div
+    class="p-4 w-full max-w-xl bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+    <form class="space-y-6" action="#">
+      <h5 class="text-xl font-medium text-gray-900 dark:text-white">Payment</h5>
+      <hr class="my-8 h-px bg-gray-200 border-0 dark:bg-gray-700">
+      <div>
+
+        <p-panel header="Exam Results" [toggleable]="true">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </p-panel>
+
+      </div>
+      <div class="flex justify-between space-x-8">
+        <button pButton routerLink="/signin" type="button" label="Back"
+                class="w-1/4 text-sm px-5 py-2.5 p-button-secondary"
+                pRipple></button>
+        <button pButton routerLink="/confirmation" type="button" label="Pay"
+                class="w-1/4 text-sm px-5 py-2.5"
+                pRipple></button>
+      </div>
+    </form>
+  </div>
+</div>
